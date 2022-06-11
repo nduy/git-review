@@ -15,4 +15,4 @@ def factorial(num):
 
 if __name__=="__main__":
     print("!!")
-    print(factorial(10))
+    print(factorial(20))
