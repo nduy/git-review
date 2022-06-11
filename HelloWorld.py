@@ -3,6 +3,6 @@
 print("Always executed")
 
 if __name__ == "__main__":
-    print("Executed when invoked directly -Private2")
+    print("Executed when invoked directly -Private3")
 else:
-    print("Executed when imported - Private2")
+    print("Executed when imported - Private3")
