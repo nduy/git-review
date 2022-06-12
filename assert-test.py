@@ -5,8 +5,8 @@ Simple assert test
 """ Original """
 
 def factorial(num):
-    assert type(num)==type(1)
-    assert num>=0
+    assert type(num)==type(1),f"Expecting Natural number, got:{type(num)}"
+    assert num>=0,f"Expecting num>=0, got:{num}"
 
     if (num==0):
         return 1
@@ -15,4 +15,4 @@ def factorial(num):
 
 if __name__=="__main__":
     print("!!")
-    print(factorial(20))
+    print(factorial(8))
